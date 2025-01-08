@@ -1,8 +1,10 @@
 import React from 'react'
 
-function hero() {
+const hero = () => {
   return (
-    <div>hero</div>
+    <div>
+      
+    </div>
   )
 }
 
