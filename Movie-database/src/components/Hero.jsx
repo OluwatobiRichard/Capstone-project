@@ -25,7 +25,7 @@ const hero = () => {
           <button className="bg-[#007bff] rounded-full py-[1rem] px-[2rem] w-[13.75rem] text-white ">
             Get Started
           </button>
-          <button className="border border-neutral-500 bg-transparent rounded-full py-[1rem] px-[2rem] w-[13.75rem] text-white inline-flex items-center justify-center gap-2">
+          <button className="border border-[#dedede] bg-transparent rounded-full py-[1rem] px-[2rem] w-[13.75rem] text-white inline-flex items-center justify-center gap-2">
             Check Our Collection
             <MdOutlineArrowOutward />
           </button>
