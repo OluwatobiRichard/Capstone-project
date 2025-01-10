@@ -10,8 +10,8 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import SignIn from "./components/pages/SignIn.jsx";
-import SignUp from "./components/pages/SignUp.jsx";
+import SignIn from "./pages/SignIn.jsx";
+import SignUp from "./pages/SignUp.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
