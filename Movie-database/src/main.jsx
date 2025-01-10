@@ -10,15 +10,15 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-import SignIn from "./pages/SignIn.jsx";
-import SignUp from "./pages/SignUp.jsx";
+import UpcomingMoviesPage from "./pages/UpcomingMoviesPage.jsx";
+import TrendingNowPage from "./pages/TrendingNowPage.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route index element={<Home />} /> {/* Default route */}
-      <Route path="signin" element={<SignIn />} /> {/* SignIn route */}
-      <Route path="signup" element={<SignUp />} /> {/* SignUp route */}
+      <Route path="UpcomingMoviesPage" element={<UpcomingMoviesPage />} /> {/* SignIn route */}
+      <Route path="TrendingNowPage" element={<TrendingNowPage />} /> {/* SignUp route */}
     </Route>
   )
 );
