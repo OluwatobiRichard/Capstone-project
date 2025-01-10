@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="flex flex-row h-[12rem] bg-[#0b1a3b] pl-[4rem] py-[2rem] gap-[8rem]">
+    <div className="flex flex-row h-[12rem] w-screen bg-[#0b1a3b] pl-[4rem] py-[2rem] gap-[8rem]">
       <div className="flex flex-row items-center gap-4 pb-[6rem]">
         <Link to="/" className="inline-flex gap-2">
           <img src="/logo.svg" className="h-[2rem] w-[2rem]" alt="Logo" />

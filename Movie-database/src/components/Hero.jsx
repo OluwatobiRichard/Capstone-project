@@ -5,7 +5,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 const hero = () => {
   return (
     <div
-      className="bg-center h-screen"
+      className="bg-center h-screen w-screen"
       style={{
         backgroundImage: `url(${MySvg})`,
         backgroundSize: "150%", // Adjust this value to increase the size

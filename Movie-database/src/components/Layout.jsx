@@ -6,14 +6,14 @@ import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <>
+    <div className="w-screen overflow-hidden">
       <Header />
       <main>
         <Outlet />
       </main>
       <Footer />
       <Right />
-    </>
+    </div>
   );
 };
 
