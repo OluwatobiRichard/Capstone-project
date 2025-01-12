@@ -83,7 +83,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-sm md:text-base">Location</h3>
-                    <p className="text-gray-400 text-sm">Panama City, Panama</p>
+                    <p className="text-gray-400 text-sm">Abuja City, Nigeria</p>
                   </div>
                 </div>
               </div>
@@ -93,7 +93,7 @@ const ContactUs = () => {
                 <h3 className="font-semibold mb-4 text-sm md:text-base">Follow Us</h3>
                 <div className="flex gap-4">
                   <a
-                    href="https://github.com/gabrielisaacs"
+                    href="https://github.com/OluwatobiRichard"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-[#1B1B1B] rounded-full hover:bg-[#007bff] transition-colors"
@@ -101,7 +101,7 @@ const ContactUs = () => {
                     <FaGithub className="text-lg md:text-xl" />
                   </a>
                   <a
-                    href="https://linkedin.com/in/gabrielisaacs"
+                    href="https://www.linkedin.com/in/ojo-oluwatobi-62264b321/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-[#1B1B1B] rounded-full hover:bg-[#007bff] transition-colors"
