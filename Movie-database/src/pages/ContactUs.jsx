@@ -63,7 +63,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-sm md:text-base">Email</h3>
-                    <p className="text-gray-400 text-sm">contact@oluwatobirichard001@gmail.com</p>
+                    <p className="text-gray-400 text-sm">oluwatobirichard001@gmail.com</p>
                   </div>
                 </div>
 
@@ -73,7 +73,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-sm md:text-base">Phone</h3>
-                    <p className="text-gray-400 text-sm">+234-081-4406-3982</p>
+                    <p className="text-gray-400 text-sm">+2348144063982</p>
                   </div>
                 </div>
 
@@ -83,7 +83,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-sm md:text-base">Location</h3>
-                    <p className="text-gray-400 text-sm">Abuja City, Nigeria</p>
+                    <p className="text-gray-400 text-sm">Abuja, Nigeria</p>
                   </div>
                 </div>
               </div>
