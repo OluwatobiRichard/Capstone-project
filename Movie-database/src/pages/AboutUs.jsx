@@ -91,7 +91,7 @@ const AboutUs = () => {
                   <FaGithub /> GitHub
                 </a>
                 <a
-                  href="https://linkedin.com/in/gabrielisaacs"
+                  href="https://www.linkedin.com/in/ojo-oluwatobi-62264b321/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-[#1B1B1B] text-white px-4 py-2 rounded-full hover:bg-[#007bff] transition-colors text-sm md:text-base"
