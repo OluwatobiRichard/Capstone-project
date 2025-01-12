@@ -64,10 +64,10 @@ const AboutUs = () => {
         <div className="bg-[#2d2d2d] rounded-xl p-6 md:p-8 mb-8 md:mb-16">
           <h2 className="text-xl md:text-2xl font-bold mb-4 md:mb-6">Meet the Developer</h2>
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8">
-            <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-[#007bff]">
+            <div className="w-32 h-38 md:w-48 md:h-50 rounded-full overflow-hidden border-6 border-[#007bff]">
               <img
-                src="/developer-image.jpg"
-                alt="Gabriel Isaacs"
+                src="/DeveloperTee.jpeg"
+                alt="Oluwatobi Ojo"
                 className="w-full h-full object-cover"
                 onError={(e) => {
                   e.target.src = "https://via.placeholder.com/200x200";
