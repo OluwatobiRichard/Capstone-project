@@ -99,7 +99,7 @@ const AboutUs = () => {
                   <FaLinkedin /> LinkedIn
                 </a>
                 <a
-                  href="mailto:contact@gabrielisaacs.com"
+                  href="mailto:oluwatobirichard001@gmai.com"
                   className="inline-flex items-center gap-2 bg-[#1B1B1B] text-white px-4 py-2 rounded-full hover:bg-[#007bff] transition-colors text-sm md:text-base"
                 >
                   <FaEnvelope /> Contact

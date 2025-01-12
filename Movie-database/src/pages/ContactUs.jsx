@@ -63,7 +63,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-sm md:text-base">Email</h3>
-                    <p className="text-gray-400 text-sm">contact@filmverse.com</p>
+                    <p className="text-gray-400 text-sm">contact@oluwatobirichard001@gmail.com</p>
                   </div>
                 </div>
 
@@ -73,7 +73,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-sm md:text-base">Phone</h3>
-                    <p className="text-gray-400 text-sm">+1 (507) 123-4567</p>
+                    <p className="text-gray-400 text-sm">+234-081-4406-3982</p>
                   </div>
                 </div>
 
