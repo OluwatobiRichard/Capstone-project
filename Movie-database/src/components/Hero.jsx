@@ -1,8 +1,14 @@
 import React from "react";
 import MySvg from "../assets/background.svg";
 import { MdOutlineArrowOutward } from "react-icons/md";
+import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
+  const navigate = useNavigate();
+  
+    const handleViewAll = () => {
+      navigate('/TrendingNowPage');
+    };
   return (
     <div
       className="relative min-h-screen w-full bg-[#1B1B1B] overflow-hidden"
@@ -31,11 +37,15 @@ const Hero = () => {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 px-4">
-            <button className="lg:w-[20rem]  w-[15rem] bg-[#007bff] hover:bg-blue-600 transition-colors duration-300 rounded-full py-3 sm:py-4 px-6 sm:px-8 text-white text-sm sm:text-base font-medium min-w-[200px]">
+            <button 
+              className="lg:w-[20rem]  w-[15rem] bg-[#007bff] hover:bg-blue-600 transition-colors duration-300 rounded-full py-3 sm:py-4 px-6 sm:px-8 text-white text-sm sm:text-base font-medium min-w-[200px]" 
+            >
               Get Started
             </button>
             <button className="lg:w-[20rem]  w-[15rem] border border-[#dedede] hover:bg-white transition-colors duration-300 rounded-full py-3 sm:py-4 px-6 sm:px-8 text-white hover:text-black text-sm sm:text-base font-medium min-w-[200px] inline-flex items-center justify-center gap-2">
-              <span>Check Our Collection</span>
+              <span onClick={handleViewAll}>
+                Check Our Collection
+              </span>
               <MdOutlineArrowOutward className="text-lg" />
             </button>
           </div>
