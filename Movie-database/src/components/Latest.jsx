@@ -1,11 +1,11 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 const Latest = () => {
   const navigate = useNavigate();
 
   const handleViewAll = () => {
-    navigate("/UpcomingMoviesPage");
+    navigate('/UpcomingMoviesPage');
   };
 
   return (
@@ -13,7 +13,7 @@ const Latest = () => {
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-center bg-no-repeat bg-cover"
-        style={{ backgroundImage: "url('https://ibb.co/NmgjrD7')" }}
+        style={{ backgroundImage: "url('./src/assets/latestBg.jpg')" }}
       >
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-80" />
